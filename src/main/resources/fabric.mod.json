@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "fuckmsa",
+  "version": "${version}",
+  "name": "Fuck MSA",
+  "description": "Makes the migrator cape say Fuck Microsoft, because fuck Microsoft",
+  "authors": [
+    "arthomnix"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fuckmsa/icon.png",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "fuckmsa.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.0",
+    "minecraft": "1.18.1"
+  }
+}
